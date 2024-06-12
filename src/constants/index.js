@@ -116,44 +116,54 @@ const experiences = [
     company_name: "Tata Consultancy Services",
     icon: tcs,
     iconBg: "#383E56",
-    date: "Apr 2021 - Jan 2022",
+    date: "Jan 2022 - Present",
     points: [
-      "Designated as a React developer for Bank of America Tax Reporting system, crafting a smooth UI utilizing ES6 features and custom hooks, contributing to a 25% increase in user satisfaction",
-"Employed code splitting, lazy loading, and search bar caching resulting in a 40% improvement in application loading times",
-"Developed reusable components and integrated React Router features, contributing to a 35% improvement in navigation efficiency and user interaction within web applications",
+      "Designated as a React developer crafting a smooth UI utilizing ES6 features and custom hooks, contributing to a 25% increase in user satisfaction",
+
+"Superintended global state management for data layer using context and use reducer combination reducing the state related bugs and styling UI layer using bootstrap"
+,
+"Developed reusable components and integrated React Router features, contributing to a 35% improvement in navigation efficiency and user interaction within web applications"
+,
+"Unified third-party APl and services, including RESTful endpoints, streamlining data flow and improving user experience resulting in a 30% faster data retrieval"
+,
+"Streamlined the build and deployment processes by configuring Webpack and Babel, resulting in faster development cycles and consistent build environments"
+
+,"Employed code splitting, lazy loading, and search bar caching resulting in a 40% improvement in application loading times Enhanced application performance by profiling and eliminating bottlenecks, using tools like react profiler and chrome devtools resulting in a 20% increase in rendering efficiency"
+,
+"Accelerated the initial app load by optimizing core web vitals, reducing the LCP by inlining assets and styles, and decreasing the number of network calls by 50%"
+,
+"Revitalized reconciliation process by implementing immutable data, keys, and memoizing performance-critical parts of the app, leading to an 80% more efficient tree conversion"
+,
+"Optimised the images by using next-gen Webp formats, progressive JPEG’s, LQIP, caching and on-demand loading reducing the total bytes by 50%"
+,
+"Performed unit and integration testing on must-go critical parts of the app using Jest and React Testing Library, achieving nearly 80% test coverage"
+,
+"Refactored large components into smaller, single-responsibility components, reducing code complexity by 35% and improving readability by 40%"
     ],
   },
   {
-    title: "Python ",
+    title: "Django Web",
     company_name: "Tata Consultancy Services",
     icon: tcs,
     iconBg: "#ffb3d9",
-    date: "Jan 2022 - Present",
+    date: "Apr 2021 - Jan 2022",
     points: [
       "Assigned as a Python developer for Standard Life, which is a part of the UK's 72nd largest long-term savings and retirement business, Phoenix Group",
 
-"Grasping the business logics provided by the clients in user stories and developing a comprehensive timeline and strategic planning for 100% completion of the SDC cycle",
+      "Grasping the business logics provided by the clients in user stories and developing a comprehensive timeline and strategic planning for 100% completion of the SDC cycle",
 
-"Adopted the flexible dataframe data structure in 90% of the code provided by the Pandas library for data manipulation, followed by optimized reusable code practices in core Python",
+      "Adopted the flexible dataframe data structure in 90% of the code provided by the Pandas library for data manipulation, followed by optimized reusable code practices in core Python",
 
-"Superintending client expectations by facilitating 20+ high-quality deliverables and resolving complex defects by closely working with cross-functional teams",
-    ],
-  },
-  {
-    title: "Django Web ",
-    company_name: "Tata Consultancy Services",
-    icon: tcs,
-    iconBg: "#383E56",
-    date: "Jan 2023 - Present",
-    points: [
+      "Superintending client expectations by facilitating 20+ high-quality deliverables and resolving complex defects by closely working with cross-functional teams",
       "Developed a dynamic user interface for Annuity, Life, and Pension calculations to handle 20 or more business workflows",
-"Applied Django forms for handling policies, which have 50+ inputs submitted through UI for different business scenarios",
+      "Applied Django forms for handling policies, which have 50+ inputs submitted through UI for different business scenarios",
 
-"Produced REST API endpoints using Django Rest Framework with ApiView and serializers behind the endpoints, leading to a 100% robust API",
-"Utilized dataframe for the validated JSON and reduced the overall memory usage by 50%",
-"Presented the results to UI by triggering business utility functions and optimized the functions to work 40% faster",
+      "Produced REST API endpoints using Django Rest Framework with ApiView and serializers behind the endpoints, leading to a 100% robust API",
+      "Utilized dataframe for the validated JSON and reduced the overall memory usage by 50%",
+      "Presented the results to UI by triggering business utility functions and optimized the functions to work 40% faster"
     ],
   }
+
 ];
 
 const testimonials = [
@@ -208,8 +218,8 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/Lingeshwaran07/React_frontend",
-    type:'Demo Link',
-    link:'https://drive.google.com/file/d/1dmOK5jI_k5f-JnD_K1Q0SYunlu-veZTO/view'
+    type: 'Demo Link',
+    link: 'https://drive.google.com/file/d/1dmOK5jI_k5f-JnD_K1Q0SYunlu-veZTO/view'
   },
   {
     name: "E-commerce app",
@@ -231,10 +241,10 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/Lingeshwaran07/shop",
-    type:'Website Link',
-    link:'https://dextershopping.netlify.app/'
+    type: 'Website Link',
+    link: 'https://dextershopping.netlify.app/'
   },
-    
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };
